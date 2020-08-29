@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,composer,vagrant,yii,yii2
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,composer,vagrant,yii,yii2
+# Created by https://www.toptal.com/developers/gitignore/api/yii2,yii,windows,visualstudiocode,vagrant,composer,sublimetext
+# Edit at https://www.toptal.com/developers/gitignore?templates=yii2,yii,windows,visualstudiocode,vagrant,composer,sublimetext
 
 ### Composer ###
 composer.phar
@@ -11,8 +11,42 @@ composer.phar
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
 
+### SublimeText ###
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+*.sublime-project
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+# *.sublime-project
+
+# SFTP configuration file
+sftp-config.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
 ### Vagrant ###
 # General
+/vagrant/
 .vagrant/
 
 # Log files (if you are creating logs in debug mode, uncomment this)
@@ -85,13 +119,11 @@ nbproject
 .settings
 
 # windows thumbnail cache
-Thumbs.db
 
 # composer vendor dir
 /vendor
 
 # composer itself is not needed
-composer.phar
 
 # Mac DS_Store Files
 .DS_Store
@@ -112,7 +144,7 @@ phpunit.phar
 /backend/web/index-test.php
 /backend/web/robots.txt
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,composer,vagrant,yii,yii2
+# End of https://www.toptal.com/developers/gitignore/api/yii2,yii,windows,visualstudiocode,vagrant,composer,sublimetext
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
